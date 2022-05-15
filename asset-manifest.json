@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/youkraft-assignment/static/css/main.258f5d68.css",
+    "main.js": "/youkraft-assignment/static/js/main.850d4357.js",
+    "static/js/787.1fa12ee4.chunk.js": "/youkraft-assignment/static/js/787.1fa12ee4.chunk.js",
+    "index.html": "/youkraft-assignment/index.html",
+    "main.258f5d68.css.map": "/youkraft-assignment/static/css/main.258f5d68.css.map",
+    "main.850d4357.js.map": "/youkraft-assignment/static/js/main.850d4357.js.map",
+    "787.1fa12ee4.chunk.js.map": "/youkraft-assignment/static/js/787.1fa12ee4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.258f5d68.css",
+    "static/js/main.850d4357.js"
+  ]
+}
