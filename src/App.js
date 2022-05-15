@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FormDataDisplayer from "./components/FormDataDisplayer/FormDataDisplayer";
+import FormDetails from "./components/FormDetails/FormDetails";
+import React, { useReducer } from "react";
+import { formReducer, formState } from "./utils/formReducer";
 
 function App() {
+  const [formData, dispatch] = useReducer(formReducer, formState);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FormDetails formData={formData} dispatch={dispatch} />
+      <FormDataDisplayer formData={formData} />
     </div>
   );
 }
