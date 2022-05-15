@@ -6,4 +6,4 @@ For running this app: First clone the repo locally and perform yarn install proc
   ### `yarn install`
   ### `yarn start`
 
-## App deployment : 
+## App deployment : https://vigneshiyergithub.github.io/youkraft-assignment/ 
